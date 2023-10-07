@@ -82,3 +82,15 @@ footer a{
 footer a:hover{
     color:black;
 }
+
+.logo{
+    width: 80px;
+}
+
+.icon{
+    width: 80px;
+}
+
+#hero-img{
+    width: 100%;
+}
