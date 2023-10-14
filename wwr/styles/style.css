@@ -49,6 +49,7 @@ nav a:hover{
     text-decoration: none;
     font-size: 18px;
     padding: 15px;
+    margin-top: 50px;
 }
 
 .book:hover, .join:hover{
@@ -69,12 +70,14 @@ footer{
     background-color: #396E94;
     color: white;
     padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .home-title{
     color:black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 2em;
+    margin-top: 10px;
 }
 
 h4{
@@ -135,4 +138,8 @@ h2 {
 
 footer .social img {
     padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
 }
