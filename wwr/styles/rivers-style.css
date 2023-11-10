@@ -110,6 +110,7 @@ nav {
     grid-column: 2/3;
     grid-row: 2/3;
     margin:15px 20px;
+    padding-bottom: 100px;
 }
 
 #rivers_grid_2{
@@ -140,6 +141,7 @@ nav {
     grid-column: 1/2;
     grid-row: 2/3;
     margin:15px 20px;
+    padding-bottom: 75px;
 }
 
 #rivers_grid_3{
@@ -168,6 +170,7 @@ nav {
     grid-column: 2/3;
     grid-row: 2/3;
     margin:15px 20px;
+    padding-bottom: 75px;
 }
 
 
