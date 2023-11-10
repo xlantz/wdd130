@@ -14,6 +14,7 @@ header{
     background-color: #396E94;
     display: grid;
     grid-template-columns: 150px auto;
+    margin:20px;
 }
 
 nav a:hover{
@@ -26,7 +27,7 @@ footer{
     background-color: #396E94;
     color: white;
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 20px;
 }
 
 footer a{
@@ -101,11 +102,14 @@ nav {
     align-items: center;
     grid-column: 2/3;
     grid-row: 1/2;
+    padding:5px 20px 20px 150px;
+
 }
 .rivers_text{
     font-size: 18px;
     grid-column: 2/3;
     grid-row: 2/3;
+    margin:15px 20px;
 }
 
 #rivers_grid_2{
@@ -125,14 +129,17 @@ nav {
 
 .rivers_title_2{
     font-size: 24px;
-    align-items: center;
     grid-column: 1/2;
     grid-row: 1/2;
+    margin:15px 20px;
+    padding:5px 20px 20px 125px;
+
 }
 .rivers_text_2{
     font-size: 18px;
     grid-column: 1/2;
     grid-row: 2/3;
+    margin:15px 20px;
 }
 
 #rivers_grid_3{
@@ -152,14 +159,15 @@ nav {
 
 .rivers_title_3{
     font-size: 24px;
-    align-items: center;
     grid-column: 2/3;
     grid-row: 1/2;
+    padding:5px 20px 20px 200px;
 }
 .rivers_text_3{
     font-size: 18px;
     grid-column: 2/3;
     grid-row: 2/3;
+    margin:15px 20px;
 }
 
 
