@@ -84,18 +84,82 @@ nav {
 #rivers_grid_1{
     display: grid;
     align-items: center;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 5px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row: repeat(3, 1fr);
 
 }
 
 .rivers_pic{
     height: 100%;
     width: 100%;
+    grid-column: 1/2;
+    grid-row: 1/3;
 }
 
+.rivers_title{
+    font-size: 24px;
+    align-items: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
 .rivers_text{
-    font-size: 12px;
+    font-size: 18px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#rivers_grid_2{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row: repeat(3, 1fr);
+
+}
+
+.rivers_pic_2{
+    height: 100%;
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+
+.rivers_title_2{
+    font-size: 24px;
+    align-items: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.rivers_text_2{
+    font-size: 18px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+#rivers_grid_3{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row: repeat(3, 1fr);
+
+}
+
+.rivers_pic_3{
+    height: 100%;
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+.rivers_title_3{
+    font-size: 24px;
+    align-items: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.rivers_text_3{
+    font-size: 18px;
+    grid-column: 2/3;
+    grid-row: 2/3;
 }
 
 
