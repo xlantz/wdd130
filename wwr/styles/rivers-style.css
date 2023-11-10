@@ -1,0 +1,104 @@
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+}
+
+header{
+    background-color: #396E94;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+nav a:hover{
+    background-color: #436436;
+    color: white;
+}
+
+
+footer{
+    background-color: #396E94;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color:black;
+}
+
+.logo{
+    width: 80px;
+}
+
+.icon{
+    width: 80px;
+}
+
+footer p{
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+}  
+
+h2 {
+    margin: 0;
+}
+
+#logo_link{
+    padding-top:5px;
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+
+main section img{
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+#rivers_grid_1{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+
+
+@media screen and (max-width: 900px) {
+    nav, footer {
+        flex-direction: column;
+    }
+
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+
+    footer {
+        margin-top: 25px;
+    }
+}
+  
