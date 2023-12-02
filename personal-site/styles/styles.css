@@ -181,3 +181,39 @@ footer nav{
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
+
+/*Gallery*/
+
+.image_gallery_1{
+    width: 33.33%;
+    margin: 10%;
+}
+.image_gallery_2{
+    width: 33.33%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+}
+.image_gallery_3{
+    width: 33.33%;
+    margin: 10%;
+}
+.image_gallery_4{
+    width: 33.33%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+}
+
+.image_gallery_2 .image_gallery_4{
+    float: right;
+}
+
+
+.gallery_title{
+    text-align: center;
+    font-size: 500%;
+}
+
+.gallery_text{
+    text-align: center;
+    font-size: 150%;
+}
