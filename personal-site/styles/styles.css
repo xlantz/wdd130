@@ -217,3 +217,48 @@ footer nav{
     text-align: center;
     font-size: 150%;
 }
+
+/*about me*/
+.image_about_1{
+    width: 33.33%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image_about_2{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about_title{
+    text-align: center;
+    font-size: 500%;
+}
+
+.about_button {
+    padding: 15px 25px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #558C8C;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .about_button {background-color: #558C8C}
+  
+  .about_button {
+    background-color: #558C8C;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .about_p{
+    text-align: center;
+  }
